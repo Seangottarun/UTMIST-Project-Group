@@ -2,7 +2,7 @@
 Private repository for UTMIST project group.
 
 ## Format:
-Implement each network as a Python class with appropriate parameters as inputs. Use the __call__() method of classes to implement main logic. Make sure the model works with test tensors. For a graphical visual, look into using TensorBoard to display the constructed graph.
+Implement each network as a Python class with appropriate parameters as inputs. Use the \_\_call__() method of classes to implement main logic. Make sure the model works with test tensors. For a graphical visual, look into using TensorBoard to display the constructed graph.
 
 ## Network List:
 * Glimpse Network -> Geoffrey & Arsh
