@@ -8,4 +8,4 @@ Implement each network as a Python class with appropriate parameters as inputs. 
 * Glimpse Network -> Geoffrey & Arsh
 * Emission Network -> Oswald & James
 * Recurrent Network -> Sean & Sepehr
-* Classification Network -> ??? (I will do it if no one takes it)
+* Classification Network -> Stanley
