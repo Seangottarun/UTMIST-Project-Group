@@ -16,4 +16,4 @@ class Config():
                      '5', '6', '7', '8', '9')
     num_classes = len(object_labels)
     OutSize=256
-        
+    #Wanted to add something
