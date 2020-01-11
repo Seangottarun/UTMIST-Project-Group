@@ -15,4 +15,5 @@ class Config():
     object_labels = ('0', '1', '2', '3', '4',
                      '5', '6', '7', '8', '9')
     num_classes = len(object_labels)
-        
+    OutSize=256
+    #Wanted to add something
