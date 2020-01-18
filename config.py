@@ -17,3 +17,7 @@ class Config():
     num_classes = len(object_labels)
     OutSize=256
     #Wanted to add something
+    
+    #Emission network parameters
+    emi_net_dim = 2
+    emi_net_stddev = 0.001    
