@@ -11,6 +11,12 @@ class Config():
     batch_size = 100
     height = 28
     width = 28
+
+    # LSTM parameters
+    input_dim_lstm = height
+    units_in_lstm = 64 
+    output_size_lstm = num_classes
+
     color_channels = 1
     object_labels = ('0', '1', '2', '3', '4',
                      '5', '6', '7', '8', '9')
