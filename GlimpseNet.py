@@ -15,8 +15,8 @@ class GlimpseNet(tf.keras.Model):
         #Fully Connected Layer
         
         #define inputs
-        glimpse = Input(shape=(config.height, config.width, config.batch_size))
-        location = Input(shape=(2, config.batch_size))
+        glimpse = Input(shape=(self.config.height, self.config.width, self.config.batch_size))
+        location = Input(shape=(2, self.config.batch_size))
 
         #gets a patch of the image as an output vector
         #3 hidden 2D convolutional layers
@@ -43,7 +43,7 @@ class GlimpseNet(tf.keras.Model):
         offset1=[]
         for i in range(0,self.config.batch_size,1):
             offset1+=[[location_tuple[0], location_tuple[1]]]
-        output = tf.image.extract_glimpse(image, config.height, config.width, offset=offset1, centered=False)
+        output = tf.image.extract_glimpse(image, self.config.height, self.config.width, offset=offset1, centered=False)
 
         model = Model(inputs=[output, location_tuple], outputs=final)
         return final
