@@ -15,12 +15,12 @@ class Config():
     # LSTM parameters
     input_dim_lstm = height
     units_in_lstm = 64 
-    output_size_lstm = num_classes
 
     color_channels = 1
     object_labels = ('0', '1', '2', '3', '4',
                      '5', '6', '7', '8', '9')
     num_classes = len(object_labels)
+    output_size_lstm = num_classes
     OutSize=256
     #Wanted to add something
     
